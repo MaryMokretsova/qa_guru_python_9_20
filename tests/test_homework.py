@@ -10,6 +10,7 @@ def test_add_product_with_params():
     response2 = post_request("/addproducttocart/details/16/1", data={
         "product_attribute_16_5_4": 14,
         "product_attribute_16_6_5": 15,
+        "product_attribute_16_3_6": 18,
         "product_attribute_16_4_7": 44,
         "product_attribute_16_8_8": 22,
         "addtocart_16.EnteredQuantity": 1}, allow_redirects=False, cookies={"NOPCOMMERCE.AUTH": cookies})
